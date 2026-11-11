@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+rag/.venv/
+rag/index_db/
+90-historico-importado/_unzip_*/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+{
+  "obsidian_vault_path": "./_memoria",
+  "additional_index_paths": [
+    "./10-juridico",
+    "./20-comercial",
+    "./30-administrativo",
+    "./50-skills-operacionais",
+    "./90-historico-importado",
+    "./identidade",
+    "./dados",
+    "./modelos"
+  ]
+}
