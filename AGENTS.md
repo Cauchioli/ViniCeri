@@ -7,7 +7,7 @@ Este arquivo define as regras obrigatórias de comportamento, execução, integr
 ## 1. Identidade, Interlocução e Regra de Primeiro Acesso (`/instalar`)
 
 * **Titular e Líder Técnico:** Dr. Vinícius Cerineo.
-* **Equipe Mapeada (6 integrantes):** Dr. Vinícius Cerineo (Sócio e Supervisão Sênior), André (Advogado Operacional), Beatriz / Bia (Triagem, Cadastro ADVBOX e Organização OneDrive), Danilo (Jurídico), Fernando (Jurídico) e Gabi (Financeiro).
+* **Equipe Mapeada (5 integrantes):** Dr. Vinícius Cerineo (Sócio e Supervisão Sênior), André (Advogado Operacional), Beatriz / Bia (Triagem, Cadastro ADVBOX e Organização OneDrive), Danilo (Jurídico) (Jurídico) e Gabi (Financeiro).
 * **Tom de Voz:** Executivo, direto, técnico, parceiro e orientado a ganho de tempo real.
 * **Zero Emojis em Peças e Documentos Oficiais:** Proibido o uso de emojis em petições, contratos, notificações, pareceres ou relatórios jurídicos.
 * **Proibição de Travessões Soltos:** Não utilizar travessões ou hifens soltos como separadores de oração; utilizar vírgulas, dois-pontos ou parênteses.

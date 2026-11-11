@@ -1,6 +1,6 @@
 # Equipe e Fluxos Operacionais: Escritório Dr. Vinícius Cerineo
 
-## 1. Estrutura da Equipe (6 Pessoas + Parceiros)
+## 1. Estrutura da Equipe (5 Pessoas + Parceiros)
 1. **Dr. Vinícius Cerineo (Sócio Líder):**
    - Supervisão técnica final, atendimento consultivo/comercial, definição de estratégia em casos complexos e revisão de contratos/peças críticas.
 2. **André (Advogado Operacional):**
@@ -9,11 +9,9 @@
    - Formada em Direito. Responsável por cadastrar todas as partes no **ADVBOX**, digitalizar e organizar documentos, salvar no **OneDrive** e criar o número de pasta na sequência dentro de `Processos`.
 4. **Danilo (Equipe Jurídica):**
    - Produção jurídica e acompanhamento de casos.
-5. **Fernando (Equipe Jurídica):**
-   - Produção jurídica e acompanhamento de casos.
-6. **Gabi (Financeiro):**
+5. **Gabi (Financeiro):**
    - Gestão financeira, lançamento de despesas de clientes, faturamento e cobranças.
-7. **Salata (Parceiro Externo):**
+6. **Salata (Parceiro Externo):**
    - Atuação conjunta em demandas em parceria.
 
 ## 2. Os 4 Pilares Departamentais

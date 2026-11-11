@@ -1,6 +1,6 @@
 # Vértice OS: Escritório Dr. Vinícius Cerineo
 
-Bem-vindo ao seu **Vértice OS exclusivo**: o Segundo Cérebro Jurídico e Operacional que unifica o **OneDrive (~250 GB)** do seu escritório, as skills que você já criou na pasta **`Cláudio`**, todo o histórico exportado do **ChatGPT Web** e do **Claude Web**, e a esteira completa de produção para você e sua equipe (**André, Beatriz/Bia, Danilo, Fernando e Gabi**) integrada ao **ADVBOX**.
+Bem-vindo ao seu **Vértice OS exclusivo**: o Segundo Cérebro Jurídico e Operacional que unifica o **OneDrive (~250 GB)** do seu escritório, as skills que você já criou na pasta **`Cláudio`**, todo o histórico exportado do **ChatGPT Web** e do **Claude Web**, e a esteira completa de produção para você e sua equipe (**André, Beatriz/Bia, Danilo e Gabi**) integrada ao **ADVBOX**.
 
 ---
 
@@ -17,7 +17,7 @@ Assim que abrir esta pasta no Claude Code, digite:
 O sistema fará automaticamente 3 coisas:
 1. **Lerá tudo o que está na sua pasta `Cláudio` (na Área de Trabalho) e em `Downloads`**: copiando as skills que você já criou e processando os arquivos `conversations.json` (mesmo com 27 milhões de caracteres), `projects.json` e `memories.json` exportados do Claude e do ChatGPT sem gastar seus tokens.
 2. **Conectará ao seu `OneDrive`**: localizando as pastas `Clientes Fixos`, `Processos`, `Modelos` (com o seu Papel Timbrado oficial em Word) e `Despesas de Clientes`, configurando o buscador semântico local (RAG).
-3. **Conduzirá uma Entrevista Guiada Passo a Passo (1 pergunta por vez)**: para calibrar os detalhes finos da rotina do André, da Bia (no ADVBOX), do Danilo, do Fernando e da Gabi (no Financeiro).
+3. **Conduzirá uma Entrevista Guiada Passo a Passo (1 pergunta por vez)**: para calibrar os detalhes finos da rotina do André, da Bia (no ADVBOX), do Danilo e da Gabi (no Financeiro).
 
 ---
 

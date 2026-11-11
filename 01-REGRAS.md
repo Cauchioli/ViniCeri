@@ -6,7 +6,7 @@ Este documento estabelece as leis universais e inegociáveis para qualquer agent
 
 ## 1. Princípio da Validação Humana e Nota de Raciocínio Obrigatória
 1. Nenhuma peça processual, contrato, notificação extrajudicial ou parecer é protocolado ou enviado ao cliente sem a validação final do Dr. Vinícius Cerineo (ou do advogado responsável designado).
-2. **Padrão Duplo de Entrega (Peça + Resumo de Raciocínio):** Toda minuta gerada pela equipe (André, Danilo, Fernando) ou pela IA deve ser salva na pasta correspondente do **OneDrive** acompanhada do arquivo `[NOME_DA_PECA]_RACIOCINIO.md`, contendo em até 15 linhas:
+2. **Padrão Duplo de Entrega (Peça + Resumo de Raciocínio):** Toda minuta gerada pela equipe (André, Danilo) ou pela IA deve ser salva na pasta correspondente do **OneDrive** acompanhada do arquivo `[NOME_DA_PECA]_RACIOCINIO.md`, contendo em até 15 linhas:
    - O que aconteceu no processo / caso até aqui;
    - Qual linha estratégica foi adotada e por quê;
    - Quais documentos da pasta do cliente foram utilizados e numerados;

@@ -5,7 +5,7 @@ description: >
   absorve tudo que está na pasta CLAUDIO (skills criadas + histórico exportado do ChatGPT e Claude),
   conecta e indexa o OneDrive do escritório no RAG local, e conduz uma entrevista estratégica
   passo a passo (uma pergunta por vez) para calibrar toda a operação da equipe (André, Bia, Danilo,
-  Fernando e Gabi) e do ADVBOX.
+  Gabi) e do ADVBOX.
 ---
 
 # `/instalar`: Setup Completo, Absorção da Pasta CLAUDIO, Conexão OneDrive e Entrevista Guiada
@@ -50,13 +50,13 @@ Apresente ao Dr. Vinícius um resumo claro e objetivo do que você já integrou:
 
 ## FASE 3: Entrevista Guiada Passo a Passo (1 Pergunta por Vez!)
 
-Conduza a entrevista abaixo fazendo **UMA única pergunta por vez**, aguardando a resposta do Dr. Vinícius, aprofundando se necessário e registrando na memória antes de passar à próxima. Não repita o que já sabemos da reunião inicial (sabemos que a equipe tem André, Bia, Danilo, Fernando e Gabi, que usam ADVBOX e OneDrive com ~250 GB, e que ele usa Claude + ChatGPT).
+Conduza a entrevista abaixo fazendo **UMA única pergunta por vez**, aguardando a resposta do Dr. Vinícius, aprofundando se necessário e registrando na memória antes de passar à próxima. Não repita o que já sabemos da reunião inicial (sabemos que a equipe tem André, Bia, Danilo e Gabi, que usam ADVBOX e OneDrive com ~250 GB, e que ele usa Claude + ChatGPT).
 
 ### Pergunta 1: Estrutura do OneDrive, Papel Timbrado e Isolamento de Sigilo
 > "Dr. Vinícius, vi aqui a estrutura do seu OneDrive (`Clientes Fixos`, `Processos`, `Modelos` e `Despesas de Clientes`) e o Papel Timbrado na pasta `Modelos`. Para deixarmos o buscador inteligente (RAG) 100% seguro antes de expandirmos para a equipe: além da parte financeira da Gabi, existe alguma pasta específica dentro do OneDrive que deve ficar bloqueada para os advogados/Bia, ou alguma subpasta de modelos que você considera o seu 'padrão ouro'?"
 
-### Pergunta 2: Divisão Fina de Carteira e Peças (André, Danilo e Fernando)
-> "Sobre a linha de produção jurídica com o **André**, o **Danilo** e o **Fernando**: como vocês dividem os processos hoje entre eles (por área do direito, por fase processual ou por cliente fixo vs. avulso)? E quando uma peça deles chega para você revisar, qual é o ajuste que você mais precisa fazer?"
+### Pergunta 2: Divisão Fina de Carteira e Peças (André, Danilo)
+> "Sobre a linha de produção jurídica com o **André**, o **Danilo**: como vocês dividem os processos hoje entre eles (por área do direito, por fase processual ou por cliente fixo vs. avulso)? E quando uma peça deles chega para você revisar, qual é o ajuste que você mais precisa fazer?"
 
 ### Pergunta 3: Fim do 'Apagar Incêndio' no WhatsApp (Passagem de Bastão com a Bia no ADVBOX)
 > "Na nossa conversa ficou claro que muitos casos urgentes chegam no seu WhatsApp e acabam ficando só com você antes de a **Bia** cadastrar no ADVBOX e abrir a pasta sequencial no OneDrive. Quando você jogar os documentos/áudios do cliente na pasta `Downloads` e rodar o comando `/triagem-downloads`, além de criar a pasta no OneDrive e resumir o caso, quais campos e tarefas padrão você quer que eu já deixe mastigados para a Bia lançar no ADVBOX em 2 minutos?"

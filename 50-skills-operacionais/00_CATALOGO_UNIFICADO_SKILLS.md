@@ -13,7 +13,7 @@
 | `/abrir` | `.agents/skills/abrir/SKILL.md` | Carrega a memória do escritório, checa o RAG no OneDrive e abre o painel do dia. |
 | `/revisao-cruzada` | `50-skills-operacionais/01_skill_elaboracao_e_revisao_cruzada.md` | Método de dupla checagem (Claude + Codex), gerando a peça no Papel Timbrado do OneDrive + `_RACIOCINIO.md` + numeração de documentos. |
 | `/triagem-downloads` | `50-skills-operacionais/02_skill_triagem_downloads_e_advbox.md` | Lê arquivos e áudios recém-baixados no `Downloads`, organiza na pasta do cliente no OneDrive e gera o checklist de cadastro no ADVBOX para a Bia. |
-| `Supervisão Sênior` | `50-skills-operacionais/03_skill_supervisao_senior_vinicius.md` | Auditoria em 3 minutos de peças feitas pelo André, Danilo ou Fernando com parecer de protocolo. |
+| `Supervisão Sênior` | `50-skills-operacionais/03_skill_supervisao_senior_vinicius.md` | Auditoria em 3 minutos de peças feitas pelo André, Danilo com parecer de protocolo. |
 | `Comercial & Contratos` | `50-skills-operacionais/04_skill_comercial_e_contratos.md` | Resumo de atendimento/áudio, proposta de honorários, contratos e termos de distrato/quitação. |
 | `Relatórios & Parceiros` | `50-skills-operacionais/05_skill_relatorio_mensal_e_parceiros.md` | Geração de relatórios mensais de andamento para clientes e cobrança organizada de parceiros (ex.: Salata). |
 | `Financeiro & Admin (Gabi)` | `50-skills-operacionais/06_skill_financeiro_e_administrativo_gabi.md` | Apoio às rotinas repetitivas do financeiro (despesas no ADVBOX, guias de ITBI/custas e controle de contratos). |

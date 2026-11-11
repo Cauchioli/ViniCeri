@@ -8,7 +8,7 @@ tipo: caso | raciocinio_peca | modelo | tese | comercial | administrativo | hist
 cliente: "Nome do Cliente ou Empresa"
 processo_ou_caso: "Número CNJ ou Identificador no ADVBOX"
 pilar: juridico | comercial | administrativo | financeiro
-responsavel: "Dr. Vinícius Cerineo | André | Beatriz | Danilo | Fernando | Gabi"
+responsavel: "Dr. Vinícius Cerineo | André | Beatriz | Danilo | Gabi"
 caminho_onedrive: "Caminho relativo na pasta do OneDrive"
 atualizado_em: "AAAA-MM-DD"
 status: ativo | aguardando_revisao | concluido

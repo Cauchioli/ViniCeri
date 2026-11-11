@@ -1,7 +1,7 @@
 # Skill 01: Elaboração no Timbrado Oficial & Revisão Cruzada (Claude + Codex)
 
 - **Pilar:** Jurídico (`10-juridico`)
-- **Operadores:** Dr. Vinícius Cerineo, André, Danilo e Fernando
+- **Operadores:** Dr. Vinícius Cerineo, André, Danilo
 - **Arquitetura Integrada:** Método de Revisão Cruzada do Dr. Vinícius ("Tio Rui Barbosa" / "Perfil Técnico Jurídico") + Esteira de 3 Níveis e Nota de Raciocínio Separada (`_RACIOCINIO.md`).
 
 ---

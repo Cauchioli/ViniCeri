@@ -30,4 +30,4 @@ Sempre que o Dr. Vinícius (ou o André/Bia) baixar documentos, PDFs, contratos,
        - [ ] Digitalizar / validar documentos na pasta do OneDrive
        - [ ] Criar número de pasta na sequência (`Processos`)
        - [ ] Lançar valor financeiro / honorários e despesas iniciais
-       - [ ] Agendar tarefa de cobrança de documentos faltantes (`D+3`) ou prazo de elaboração da peça para André / Danilo / Fernando.
+       - [ ] Agendar tarefa de cobrança de documentos faltantes (`D+3`) ou prazo de elaboração da peça para André / Danilo.
