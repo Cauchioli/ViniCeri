@@ -319,14 +319,14 @@ def executar_ingestao(custom_claudio_dir=None):
                 fn_low = file.lower()
                 ext = fp.suffix.lower()
 
-                if ext == ".zip" and (base in pastas_claudio or any(k in fn_low for k in ["claude", "chatgpt", "openai", "export", "conversa", "data"])):
+                if ext == ".zip" and (base in pastas_claudio or any(k in fn_low for k in ["claude", "chatgpt", "openai", "export", "conversa", "data", "projects-000", "memories-000", "frames-000", "light_metadata-000"])):
                     pasta_unzip = HIST_IMPORT_DIR / f"_unzip_{limpar_slug(fp.stem)}"
                     if not pasta_unzip.exists():
                         try:
                             with zipfile.ZipFile(fp, "r") as zf:
                                 nomes_internos = [n.lower() for n in zf.namelist()]
                                 eh_export_ia = (base in pastas_claudio) or any(
-                                    "conversations.json" in n or "projects.json" in n or "memories.json" in n
+                                    "conversations.json" in n or "projects.json" in n or "memories.json" in n or n.startswith("projects/") or n.startswith("memories/") or n.startswith("artifacts/")
                                     for n in nomes_internos
                                 )
                                 if eh_export_ia:
@@ -353,7 +353,7 @@ def executar_ingestao(custom_claudio_dir=None):
         fn_low = jp.name.lower()
         if "conversation" in fn_low:
             processar_json_conversas(jp, indice_conversas, prompts_recorrentes)
-        elif any(k in fn_low for k in ["project", "memor", "manifest"]):
+        elif any(k in fn_low for k in ["project", "memor", "manifest"]) or "projects" in str(jp).lower() or "memories" in str(jp).lower():
             processar_json_projetos_ou_memorias(jp)
 
     # 3. Gera o Catálogo Unificado de Skills (Nativas Vértice OS + Absorvidas da Pasta CLAUDIO + Extraídas do Histórico)
