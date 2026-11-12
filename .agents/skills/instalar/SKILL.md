@@ -77,7 +77,7 @@ Conduza a entrevista abaixo fazendo **UMA única pergunta por vez**, aguardando 
 Assim que o Dr. Vinícius responder a 6ª pergunta:
 1. Atualize os arquivos em `_memoria/` (`contexto.md`, `equipe_e_fluxos.md`, `estrategia.md`, `preferencias.md`) com todas as respostas reais dele.
 2. Se durante a entrevista surgir qualquer rotina específica nova, crie uma skill dedicada em `50-skills-operacionais/` e atualize `50-skills-operacionais/00_CATALOGO_UNIFICADO_SKILLS.md`.
-3. Crie o arquivo `_memoria/entrevista_concluida.flag` com a data de conclusão.
+3. Crie o arquivo `_memoria/RESUMO_CALIBRAGEM_ETAPA_1.md (consolidando o raio-X do OneDrive, as skills da pasta Claudio e as 6 respostas da entrevista, orientando o Dr. Vinicius a enviar esse arquivo no WhatsApp para ativar o acompanhamento de 30 dias) e em seguida crie _memoria/entrevista_concluida.flag` com a data de conclusão.
 4. Execute a instalação e indexação do RAG local conectado ao OneDrive:
    ```bash
    python rag/install_rag.py

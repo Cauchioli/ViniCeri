@@ -52,6 +52,6 @@ Conduza uma entrevista enxuta, prática e estratégica (**faça UMA pergunta por
 ### Etapa 4: Consolidação, Indexação do RAG no OneDrive e Primeiro Teste Real
 Ao concluir as 6 respostas:
 1. Atualize `_memoria/contexto.md`, `_memoria/equipe_e_fluxos.md`, `_memoria/estrategia.md` e `_memoria/preferencias.md`.
-2. Crie o arquivo `_memoria/entrevista_concluida.flag`.
+2. Crie o arquivo `_memoria/RESUMO_CALIBRAGEM_ETAPA_1.md (consolidando o raio-X do OneDrive, as skills da pasta Claudio e as 6 respostas da entrevista, orientando o Dr. Vinicius a enviar esse arquivo no WhatsApp para ativar o acompanhamento de 30 dias) e em seguida crie _memoria/entrevista_concluida.flag`.
 3. Rode a indexação do RAG local (`python rag/rag_acervo.py index`) e inicie o servidor (`rag/iniciar_rag.bat`).
 4. Convide o Dr. Vinícius a testar imediatamente com 1 caso real da mesa dele (ex.: revisar um contrato no timbrado, triar os arquivos do `Downloads` ou consultar o histórico importado do ChatGPT/Claude).
