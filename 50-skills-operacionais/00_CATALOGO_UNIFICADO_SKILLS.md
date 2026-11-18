@@ -17,6 +17,7 @@
 | `Comercial & Contratos` | `50-skills-operacionais/04_skill_comercial_e_contratos.md` | Resumo de atendimento/áudio, proposta de honorários, contratos e termos de distrato/quitação. |
 | `Relatórios & Parceiros` | `50-skills-operacionais/05_skill_relatorio_mensal_e_parceiros.md` | Geração de relatórios mensais de andamento para clientes e cobrança organizada de parceiros (ex.: Salata). |
 | `Financeiro & Admin (Gabi)` | `50-skills-operacionais/06_skill_financeiro_e_administrativo_gabi.md` | Apoio às rotinas repetitivas do financeiro (despesas no ADVBOX, guias de ITBI/custas e controle de contratos). |
+| `/mapa-visual` | `50-skills-operacionais/07_skill_mapa_visual_cliente_e_onedrive.md` | Gera o Mapa Visual & Planejamento Executivo em HTML/PDF a partir da pasta do cliente no OneDrive e organiza pastas em lotes leves sem travar o PC. |
 
 ---
 

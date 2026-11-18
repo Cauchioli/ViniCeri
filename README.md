@@ -27,6 +27,7 @@ O sistema fará automaticamente 3 coisas:
 - **`/abrir`** : Carrega a memória do escritório no início do expediente.
 - **`/triagem-downloads`** : Lê todos os documentos, PDFs e áudios de clientes que você acabou de jogar na pasta `Downloads`, separa por caso, organiza na pasta do OneDrive e já gera a ficha pronta para a **Bia** cadastrar no **ADVBOX**.
 - **`/revisao-cruzada`** : Executa o seu método de dupla checagem (análise de linhas estratégicas + redação no seu Papel Timbrado oficial do OneDrive + auditoria crítica + geração da nota `_RACIOCINIO.md` e numeração sequencial dos documentos na ordem da peça).
+- **`/mapa-visual`** : Transforma qualquer pasta de cliente no OneDrive em um **Mapa Visual & Planejamento Executivo em HTML/PDF** de alto padrão para apresentar ao cliente, e organiza o OneDrive em lotes leves sem sobrecarregar seu computador.
 - **`/absorver-claudio`** : Atualiza o sistema sempre que você colocar novos arquivos ou exportações na pasta `Cláudio`.
 
 ---

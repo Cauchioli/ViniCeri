@@ -40,4 +40,5 @@ Este ecossistema unifica em um único lugar:
 2. **`/abrir`**: Carrega o contexto do escritório e as prioridades do dia.
 3. **`/triagem-downloads`**: Lê tudo o que você acabou de baixar no `Downloads` (documentos e áudios do WhatsApp), separa por cliente, organiza no OneDrive e gera a tarefa pronta para a Bia cadastrar no ADVBOX.
 4. **`/revisao-cruzada`**: Executa o método de dupla checagem (análise estratégica + redação no Papel Timbrado do OneDrive + auditoria crítica + nota `_RACIOCINIO.md`).
-5. **`/absorver-claudio`**: Atualiza o sistema sempre que novos arquivos ou exportações forem colocados na pasta `Cláudio`.
+5. **`/mapa-visual`**: Gera o Mapa Visual & Planejamento Executivo em HTML/PDF a partir da pasta do cliente no OneDrive (para apresentação de alto impacto ao cliente) e permite organizar pastas do Drive em lotes leves sem travar o computador.
+6. **`/absorver-claudio`**: Atualiza o sistema sempre que novos arquivos ou exportações forem colocados na pasta `Cláudio`.

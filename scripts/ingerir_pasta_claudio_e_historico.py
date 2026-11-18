@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 Ingestor e Minerador Determinístico: Pasta CLAUDIO + Exports ChatGPT & Claude Web
-Escritório Dr. Vinícius Cerineo — Vértice OS
+Escritório Dr. Vinícius Cerineo (Vértice OS)
 
 O que este script faz (100% local, zero gasto de tokens da IA):
 1. Localiza automaticamente a pasta 'Cláudio' / 'CLAUDIO' / 'Claudio' na Área de Trabalho
    (incluindo OneDrive Desktop), Downloads ou caminho passado por argumento.
-2. Absorve todas as Skills, prompts, rascunhos (.md, .txt, .docx, .py) que o Dr. Vinícius
-   já criou na pasta CLAUDIO, copiando-os de forma organizada para:
+2. Absorve todas as Skills, prompts, planejamentos visuais e rascunhos (.md, .txt, .docx, .py, .html, .bat, .ps1)
+   que o Dr. Vinícius já criou na pasta CLAUDIO, copiando-os de forma organizada para:
    50-skills-operacionais/skills_importadas_claudio/
 3. Localiza arquivos de exportação do Claude Web e do ChatGPT Web (arquivos .zip ou
    conversations.json de até dezenas de milhões de caracteres, projects.json, memories.json)
@@ -289,13 +289,13 @@ def executar_ingestao(custom_claudio_dir=None):
                 ext = fp.suffix.lower()
                 fn_low = file.lower()
 
-                # Se for arquivo de Skill, Prompt, Regra ou Documento criado na pasta CLAUDIO
-                if ext in (".md", ".txt", ".docx", ".py") and "conversations" not in fn_low:
+                # Se for arquivo de Skill, Prompt, Planejamento Visual, Regra ou Documento criado na pasta CLAUDIO
+                if ext in (".md", ".txt", ".docx", ".py", ".html", ".htm", ".bat", ".ps1", ".yaml", ".yml") and "conversations" not in fn_low:
                     dest = SKILLS_IMPORT_DIR / f"{limpar_slug(fp.stem)}{ext}"
                     try:
                         shutil.copy2(fp, dest)
                         resumo = ""
-                        if ext in (".md", ".txt"):
+                        if ext in (".md", ".txt", ".html", ".htm"):
                             resumo = fp.read_text(encoding="utf-8", errors="ignore")[:300].replace("\n", " ").strip()
                         skills_encontradas.append({
                             "nome": file,
@@ -378,6 +378,7 @@ def executar_ingestao(custom_claudio_dir=None):
         "| `Comercial & Contratos` | `50-skills-operacionais/04_skill_comercial_e_contratos.md` | Resumo de atendimento/áudio, proposta de honorários, contratos e termos de distrato/quitação. |",
         "| `Relatórios & Parceiros` | `50-skills-operacionais/05_skill_relatorio_mensal_e_parceiros.md` | Geração de relatórios mensais de andamento para clientes e cobrança organizada de parceiros (ex.: Salata). |",
         "| `Financeiro & Admin (Gabi)` | `50-skills-operacionais/06_skill_financeiro_e_administrativo_gabi.md` | Apoio às rotinas repetitivas do financeiro (despesas no ADVBOX, guias de ITBI/custas e controle de contratos). |",
+        "| `/mapa-visual` | `50-skills-operacionais/07_skill_mapa_visual_cliente_e_onedrive.md` | Gera o Mapa Visual & Planejamento Executivo em HTML/PDF a partir da pasta do cliente no OneDrive e organiza pastas em lotes leves sem travar o PC. |",
         "",
         "---",
         "",

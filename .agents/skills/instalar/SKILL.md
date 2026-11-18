@@ -39,12 +39,12 @@ python scripts/scanner_onedrive.py "CAMINHO_DO_ONEDRIVE"
 
 ---
 
-## FASE 2: Apresentação do Diagnóstico Absorvido
+## FASE 2: Apresentação do Diagnóstico Absorvido e Consolidação dos Testes da Semana
 
 Apresente ao Dr. Vinícius um resumo claro e objetivo do que você já integrou:
-- Quantas skills/arquivos pré-existentes da pasta **`Cláudio`** foram incorporados em `50-skills-operacionais/skills_importadas_claudio/`;
+- Quantas skills, prompts e planejamentos visuais pré-existentes da pasta **`Cláudio`** (incluindo os testes e organizações de pastas feitos recentemente por ele no Claude) foram incorporados e documentados em `50-skills-operacionais/skills_importadas_claudio/`;
 - Quantas conversas e projetos exportados do **ChatGPT Web** e do **Claude Web** (`conversations.json`, `projects.json`, `memories.json`) foram classificados nos 4 pilares (`10-juridico`, `20-comercial`, `30-administrativo`, `40-financeiro-restrito`);
-- Confirmação da estrutura detectada no **OneDrive** (`Clientes Fixos`, `Processos`, `Modelos` com o Papel Timbrado em Word, e `Despesas de Clientes`).
+- Confirmação da estrutura detectada no **OneDrive** (`Clientes Fixos`, `Processos`, `Modelos` com o Papel Timbrado em Word, e `Despesas de Clientes`), destacando que o sistema opera em **modo leve por lotes** para não pesar no computador dele e já conta com o comando `/mapa-visual` para gerar o painel executivo de planejamento para clientes.
 
 ---
 
