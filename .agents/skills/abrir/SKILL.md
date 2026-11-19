@@ -1,16 +1,12 @@
 ---
 name: abrir
-description: >
-  Carrega a memória operacional do escritório do Dr. Vinícius Cerineo, verifica a conexão
-  com o OneDrive e o histórico importado da pasta CLAUDIO, e apresenta o briefing executivo da sessão.
+description: Abre a Mesa do Escritorio (Hoje, Prazos, Fila de Aprovacao e Grafo de Habitos) e antecipa as 3 prioridades do dia.
 ---
 
-# `/abrir`: Inicialização Diária do Vértice OS (Dr. Vinícius Cerineo)
+# Skill `/abrir` : Mesa do Escritorio e Bussola do Dia
 
-1. Leia `_memoria/contexto.md`, `_memoria/equipe_e_fluxos.md`, `_memoria/estrategia.md` e `_memoria/raiox_onedrive.md`.
-2. Verifique se `_memoria/entrevista_concluida.flag` existe:
-   - Se **não existir**, avise ao Dr. Vinícius e inicie imediatamente o fluxo `/instalar` (`.agents/skills/instalar/SKILL.md`).
-3. Se já estiver instalado, apresente um resumo de até 8 linhas com:
-   - Status do conector OneDrive + RAG local;
-   - Atalhos disponíveis (`/triagem-downloads`, `/revisao-cruzada`, `/absorver-claudio`);
-   - Pergunte qual caso ou frente (`Jurídico`, `Comercial`, `Administrativo` ou `Financeiro`) vamos atacar agora.
+1. Leia `_memoria/mesa_do_escritorio.md`, `_memoria/grafo_de_habitos.md`, `_memoria/aprendizado_continuo.md` e `00_MANIFESTO_MODULOS_INSTALADOS.md` (se existir).
+2. Apresente em no maximo 12 linhas:
+   - **Hoje e Prazos em Vigilia**;
+   - **Fila de Aprovacao do Socio** (cartoes pendentes que o usuario pode aprovar digitando `aprovar 1`);
+   - **Bussola de Antecipacao (1, 2 ou 3)** sugerindo as 3 primeiras acoes do expediente.

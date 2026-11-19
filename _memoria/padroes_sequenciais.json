@@ -1,0 +1,29 @@
+{
+  "transitions": [
+    {
+      "de": "Analise de Caso ou Autos",
+      "para": "Minuta no Papel Timbrado + _RACIOCINIO.md",
+      "count": 2,
+      "user": "sistema"
+    },
+    {
+      "de": "Audio ou Transcricao de Atendimento",
+      "para": "Ata Comercial + Proposta de Honorarios",
+      "count": 2,
+      "user": "sistema"
+    },
+    {
+      "de": "Minuta de Peca Contenciosa",
+      "para": "Auditoria Juiz Externo + Visual Law",
+      "count": 2,
+      "user": "sistema"
+    },
+    {
+      "de": "Arquivos Novos no Downloads",
+      "para": "Triagem Pasta do Cliente + Checklist ADVBOX",
+      "count": 2,
+      "user": "sistema"
+    }
+  ],
+  "history": []
+}
